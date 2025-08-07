@@ -8,10 +8,10 @@ function App() {
 
   const projects = [
     {
-      title: "Real-time Data Pipeline",
-      description: "Built a scalable ETL pipeline processing 1M+ records daily using Apache Kafka, Spark, and PostgreSQL",
-      tech: ["Apache Kafka", "Apache Spark", "PostgreSQL", "Python"],
-      status: "Production"
+      title: "Fighter Jet Simulator",
+      description: "Built a really fun and simple fighter jet simulator (based on geometry and statistics) where the dogfight is logged in a file for memorabilia",
+      tech: ["Python", "FastAPI", "MongoDB", "OOP"],
+      status: "Beta"
     },
     {
       title: "Customer Analytics Dashboard",
@@ -48,8 +48,8 @@ function App() {
       <section className="hero">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Data Engineer</h1>
-            <h2>Building scalable data solutions</h2>
+            <h1>Matias Sanchez Wilson</h1>
+            <h2>Data Engineer</h2>
             <p>Transforming raw data into actionable insights through robust pipelines, analytics platforms, and machine learning systems.</p>
             <div className="hero-buttons">
               <button className="btn-primary" onClick={() => scrollToSection('projects')}>View Projects</button>
@@ -118,10 +118,10 @@ function App() {
           <h2>Let's Connect</h2>
           <p>Interested in collaborating or discussing data engineering opportunities?</p>
           <div className="contact-links">
-            <a href="mailto:contact@dataengineer.dev" className="contact-link">
+            <a href="mailto:matirsw@gmail.com" className="contact-link">
               <span>📧</span> Email
             </a>
-            <a href="https://linkedin.com/in/dataengineer" className="contact-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/matiassanchezwilson/" className="contact-link" target="_blank" rel="noopener noreferrer">
               <span>💼</span> LinkedIn
             </a>
             <a href="https://github.com/mattysanchez20" className="contact-link" target="_blank" rel="noopener noreferrer">
