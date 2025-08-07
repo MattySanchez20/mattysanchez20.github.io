@@ -1,8 +1,20 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders data engineer portfolio', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = screen.getByText(/Data Engineer/i);
+  expect(titleElement).toBeInTheDocument();
+});
+
+test('renders projects section', () => {
+  render(<App />);
+  const projectsElement = screen.getByText(/Featured Projects/i);
+  expect(projectsElement).toBeInTheDocument();
+});
+
+test('renders skills section', () => {
+  render(<App />);
+  const skillsElement = screen.getByText(/Technical Skills/i);
+  expect(skillsElement).toBeInTheDocument();
 });

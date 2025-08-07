@@ -30,6 +30,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  scroll-margin-top: 0;
 }
 
 .hero::before {
@@ -155,6 +156,7 @@ body {
 .projects {
   padding: 6rem 0;
   background: white;
+  scroll-margin-top: 2rem;
 }
 
 .projects h2 {
@@ -257,6 +259,7 @@ body {
 .skills {
   padding: 6rem 0;
   background: #f8fafc;
+  scroll-margin-top: 2rem;
 }
 
 .skills h2 {
@@ -308,6 +311,7 @@ body {
   background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
   color: white;
   text-align: center;
+  scroll-margin-top: 2rem;
 }
 
 .contact h2 {
@@ -346,6 +350,31 @@ body {
 .contact-link:hover {
   background: rgba(255,255,255,0.2);
   transform: translateY(-2px);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.project-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.skill-group {
+  animation: fadeInUp 0.6s ease-out;
 }
 
 .contact-link span {

@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+# Data Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing data engineering projects, skills, and experience. Built with React and deployed on GitHub Pages.
+
+## 🚀 Live Demo
+
+Visit the live portfolio at: [https://mattysanchez20.github.io](https://mattysanchez20.github.io)
+
+## 🛠️ Built With
+
+- **React** - Frontend framework
+- **CSS3** - Styling with modern features (Grid, Flexbox, Animations)
+- **GitHub Pages** - Deployment platform
+
+## 📋 Features
+
+- **Responsive Design** - Optimized for all device sizes
+- **Modern UI/UX** - Clean, professional design with smooth animations
+- **Project Showcase** - Detailed project cards with technology stacks
+- **Skills Matrix** - Organized technical skills by category
+- **Contact Integration** - Direct links to email, LinkedIn, and GitHub
+- **Smooth Navigation** - Scroll-to-section functionality
+
+## 🏗️ Project Structure
+
+```
+src/
+├── App.js          # Main component with portfolio sections
+├── App.css         # Comprehensive styling
+├── App.test.js     # Component tests
+└── index.js        # Application entry point
+```
+
+## 📊 Portfolio Sections
+
+1. **Hero Section** - Introduction with data flow visualization
+2. **Projects** - Featured data engineering projects with tech stacks
+3. **Skills** - Technical skills organized by category
+4. **Contact** - Professional contact information and links
 
 ## Available Scripts
 
@@ -8,63 +44,45 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deploys the built app to GitHub Pages
 
-### `npm run eject`
+## 🚀 Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The portfolio is automatically deployed to GitHub Pages. To deploy updates:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Make your changes
+2. Run `npm run deploy`
+3. Changes will be live at your GitHub Pages URL
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📱 Responsive Design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The portfolio is fully responsive and optimized for:
+- Desktop (1200px+)
+- Tablet (768px - 1199px)  
+- Mobile (320px - 767px)
 
-## Learn More
+## 🎨 Customization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To customize the portfolio for your own use:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Personal Information**: Update contact links in the Contact section
+2. **Projects**: Modify the `projects` array in `App.js`
+3. **Skills**: Update the `skills` array in `App.js`
+4. **Styling**: Customize colors and layout in `App.css`
+5. **Content**: Update hero section text and descriptions
 
-### Code Splitting
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the [MIT License](LICENSE).

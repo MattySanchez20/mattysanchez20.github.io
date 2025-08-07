@@ -1,6 +1,11 @@
 import './App.css';
 
 function App() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   const projects = [
     {
       title: "Real-time Data Pipeline",
@@ -47,8 +52,8 @@ function App() {
             <h2>Building scalable data solutions</h2>
             <p>Transforming raw data into actionable insights through robust pipelines, analytics platforms, and machine learning systems.</p>
             <div className="hero-buttons">
-              <button className="btn-primary">View Projects</button>
-              <button className="btn-secondary">Download Resume</button>
+              <button className="btn-primary" onClick={() => scrollToSection('projects')}>View Projects</button>
+              <button className="btn-secondary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
             </div>
           </div>
           <div className="hero-visual">
@@ -64,7 +69,7 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section className="projects">
+      <section id="projects" className="projects">
         <div className="container">
           <h2>Featured Projects</h2>
           <div className="projects-grid">
@@ -89,7 +94,7 @@ function App() {
       </section>
 
       {/* Skills Section */}
-      <section className="skills">
+      <section id="skills" className="skills">
         <div className="container">
           <h2>Technical Skills</h2>
           <div className="skills-grid">
@@ -108,18 +113,18 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section className="contact">
+      <section id="contact" className="contact">
         <div className="container">
           <h2>Let's Connect</h2>
           <p>Interested in collaborating or discussing data engineering opportunities?</p>
           <div className="contact-links">
-            <a href="mailto:your.email@example.com" className="contact-link">
+            <a href="mailto:contact@dataengineer.dev" className="contact-link">
               <span>📧</span> Email
             </a>
-            <a href="https://linkedin.com/in/yourprofile" className="contact-link">
+            <a href="https://linkedin.com/in/dataengineer" className="contact-link" target="_blank" rel="noopener noreferrer">
               <span>💼</span> LinkedIn
             </a>
-            <a href="https://github.com/yourusername" className="contact-link">
+            <a href="https://github.com/mattysanchez20" className="contact-link" target="_blank" rel="noopener noreferrer">
               <span>🔗</span> GitHub
             </a>
           </div>
