@@ -36,7 +36,8 @@ function App() {
     { category: "Deployment", items: ["Docker", "GKE"] },
     { category: "Code Quality", items: ["Git", "Ruff", "Isort", "Black", "Flake8"] },
     { category: "CI/CD", items: ["GitHub Actions", "Google Cloud Build"] },
-    { category: "Visualization", items: ["Looker Studio", "Grafana", "Tableau"] }
+    { category: "Visualization", items: ["Looker Studio", "Grafana", "Tableau"] },
+    { category: "Learning", items: ["LangChain", "RAG", "Node.js"] }
   ];
 
   return (
@@ -55,11 +56,11 @@ function App() {
           </div>
           <div className="hero-visual">
             <div className="data-flow">
-              <div className="data-node">Raw Data</div>
+              <div className="data-node">Extract</div>
               <div className="arrow">→</div>
-              <div className="data-node">Processing</div>
+              <div className="data-node">Transform</div>
               <div className="arrow">→</div>
-              <div className="data-node">Insights</div>
+              <div className="data-node">Load</div>
             </div>
           </div>
         </div>
