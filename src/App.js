@@ -5,6 +5,8 @@
       description: "Built a really fun and simple fighter jet simulator (based on geometry and statistics) where the dogfight is logged in a file for memorabilia",
       tech: ["Python", "FastAPI", "MongoDB", "OOP"],
 -      status: "Personal"
+      status: "Personal",
+      sourceUrl: "https://github.com/mattysanchez20/dogfight-simulator"
 +      status: "Personal",
 +      sourceUrl: "https://github.com/mattysanchez20/dogfight-simulator"
     },
