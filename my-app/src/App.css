@@ -224,12 +224,12 @@ body {
   color: #155724;
 }
 
-.status.live {
+.status.personal {
   background: #cce5ff;
   color: #004085;
 }
 
-.status.beta {
+.status.wip {
   background: #fff3cd;
   color: #856404;
 }

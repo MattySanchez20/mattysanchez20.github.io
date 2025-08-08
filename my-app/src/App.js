@@ -8,38 +8,35 @@ function App() {
 
   const projects = [
     {
-      title: "Fighter Jet Simulator",
+      title: "Dogfight Simulator",
       description: "Built a really fun and simple fighter jet simulator (based on geometry and statistics) where the dogfight is logged in a file for memorabilia",
       tech: ["Python", "FastAPI", "MongoDB", "OOP"],
-      status: "Beta"
+      status: "Personal"
     },
     {
-      title: "Customer Analytics Dashboard",
-      description: "Developed interactive dashboards for customer behavior analysis with 40% improvement in decision-making speed",
+      title: "Add more projects here",
+      description: "Blah",
       tech: ["Tableau", "SQL", "Python", "AWS Redshift"],
-      status: "Live"
+      status: "WIP"
     },
     {
-      title: "ML Model Deployment Platform",
-      description: "Created automated ML model deployment system reducing time-to-production from weeks to hours",
-      tech: ["Docker", "Kubernetes", "MLflow", "FastAPI"],
-      status: "Beta"
-    },
-    {
-      title: "Data Quality Framework",
-      description: "Implemented comprehensive data quality monitoring system with automated alerting and remediation",
-      tech: ["Great Expectations", "Airflow", "Slack API", "MongoDB"],
+      title: "Work Projects",
+      description: "Ask me about them!",
+      tech: ["Mystery"],
       status: "Production"
     }
   ];
 
   const skills = [
-    { category: "Languages", items: ["Python", "SQL", "Scala", "R"] },
-    { category: "Big Data", items: ["Apache Spark", "Hadoop", "Kafka", "Airflow"] },
-    { category: "Cloud", items: ["AWS", "Azure", "GCP", "Snowflake"] },
-    { category: "Databases", items: ["PostgreSQL", "MongoDB", "Redis", "Cassandra"] },
-    { category: "Tools", items: ["Docker", "Kubernetes", "Git", "Terraform"] },
-    { category: "Visualization", items: ["Tableau", "Power BI", "Grafana", "Plotly"] }
+    { category: "Languages", items: ["Python", "SQL", "Bash", "Terraform"] },
+    { category: "Processing", items: ["BigQuery", "PySpark", "Dask", "Pandas", "Numpy"] },
+    { category: "Orchestration", items: ["Apache Airflow", "Dataflow"] },
+    { category: "Cloud", items: ["GCP", "Snowflake"] },
+    { category: "Databases/Storage", items: ["Postgres", "MongoDB", "GCS", "S3"] },
+    { category: "Deployment", items: ["Docker", "GKE"] },
+    { category: "Code Quality", items: ["Git", "Ruff", "Isort", "Black", "Flake8"] },
+    { category: "CI/CD", items: ["GitHub Actions", "Google Cloud Build"] },
+    { category: "Visualization", items: ["Looker Studio", "Grafana", "Tableau"] }
   ];
 
   return (
