@@ -137,6 +137,9 @@ function App() {
             <a href="https://github.com/mattysanchez20" className="contact-link" target="_blank" rel="noopener noreferrer">
               <span>🔗</span> GitHub
             </a>
+            <a href="https://gitlab.com/users/MattySanchez20/projects" className="contact-link" target="_blank" rel="noopener noreferrer">
+              <span>🚀</span> GitLab
+            </a>
           </div>
         </div>
       </section>
