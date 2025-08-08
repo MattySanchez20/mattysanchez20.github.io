@@ -26,6 +26,12 @@ function App() {
       status: "Production"
     },
     {
+      title: "Stroke Classification",
+      description: "Predicting potential stroke victims using machine learning methods",
+      tech: ["Python", "KNN", "Decision Tree", "Random Forest", "Scikit-learn", "Pandas", "Numpy", "Seaborn"],
+      status: "Personal"
+    },
+    {
       title: "Work Projects",
       description: "Ask me about them!",
       tech: ["Mystery"],
