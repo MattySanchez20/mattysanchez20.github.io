@@ -17,7 +17,13 @@ function App() {
       title: "Solar Panel CNN",
       description: "Developed a CNN model to classify an image of a solar panel as clean or dirty",
       tech: ["Python", "TensorFlow", "CNN", "Optimisation Algorithms"],
-      status: "WIP"
+      status: "Personal"
+    },
+    {
+      title: "Particle Simulation",
+      description: "Testing the Feasibility of Hyperon-Nucleon Interaction Experiments at Jefferson Lab Using A Monte Carlo Simulation and Links to Neutron Stars",
+      tech: ["C++", "Monte Carlo", "Mathematical Modelling"],
+      status: "Production"
     },
     {
       title: "Work Projects",
