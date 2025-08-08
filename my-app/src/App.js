@@ -48,7 +48,7 @@ function App() {
           <div className="hero-text">
             <h1>Matias Sanchez Wilson</h1>
             <h2>Data Engineer</h2>
-            <p>Transforming raw data into actionable insights through robust pipelines, analytics platforms, and machine learning systems.</p>
+            <p>An experienced data engineer specialising in big data processing and building scalable data pipelines using Python and SQL.</p>
             <div className="hero-buttons">
               <button className="btn-primary" onClick={() => scrollToSection('projects')}>View Projects</button>
               <button className="btn-secondary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
