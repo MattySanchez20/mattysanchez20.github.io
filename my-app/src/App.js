@@ -62,7 +62,8 @@ function App() {
             <h2>Data Engineer</h2>
             <p>An experienced data engineer specialising in big data processing and building scalable data pipelines using Python and SQL.</p>
             <div className="hero-buttons">
-              <button className="btn-primary" onClick={() => scrollToSection('projects')}>View Projects</button>
+              <button className="btn-secondary" onClick={() => scrollToSection('projects')}>View Projects</button>
+              <button className="btn-secondary" onClick={() => scrollToSection('skills')}>See Skills</button>
               <button className="btn-secondary" onClick={() => scrollToSection('contact')}>Get In Touch</button>
             </div>
           </div>

@@ -154,9 +154,9 @@ body {
 
 /* Projects Section */
 .projects {
-  padding: 6rem 0;
+  padding: 4rem 0;
   background: white;
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 0rem;
 }
 
 .projects h2 {
@@ -257,9 +257,9 @@ body {
 
 /* Skills Section */
 .skills {
-  padding: 6rem 0;
+  padding: 4rem 0;
   background: #f8fafc;
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 0rem;
 }
 
 .skills h2 {
@@ -307,11 +307,11 @@ body {
 
 /* Contact Section */
 .contact {
-  padding: 6rem 0;
+  padding: 10rem 0;
   background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
   color: white;
   text-align: center;
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 0rem;
 }
 
 .contact h2 {
