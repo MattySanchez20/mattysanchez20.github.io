@@ -14,9 +14,9 @@ function App() {
       status: "Personal"
     },
     {
-      title: "Add more projects here",
-      description: "Blah",
-      tech: ["Tableau", "SQL", "Python", "AWS Redshift"],
+      title: "Solar Panel CNN",
+      description: "Developed a CNN model to classify an image of a solar panel as clean or dirty",
+      tech: ["Python", "TensorFlow", "CNN", "Optimisation Algorithms"],
       status: "WIP"
     },
     {
